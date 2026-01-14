@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AEA3524-B5E8-4078-AE46-64DF695DBE42}|7.\u7ED3\u6784\u4F53.vcxproj|C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1AEA3524-B5E8-4078-AE46-64DF695DBE42}|7.\u7ED3\u6784\u4F53.vcxproj|solutionrelative:task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "task.c",
+              "DocumentMoniker": "C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\task.c",
+              "RelativeDocumentMoniker": "task.c",
+              "ToolTip": "C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\task.c*",
+              "RelativeToolTip": "task.c*",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAGwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-09-23T12:50:34.048Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

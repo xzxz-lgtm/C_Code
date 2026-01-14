@@ -1,0 +1,18 @@
+﻿  task.c
+C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(62,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+      C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(62,9):
+      请考虑在格式字符串中使用“%lld”
+      C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(62,9):
+      请考虑在格式字符串中使用“%Id”
+      C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(62,9):
+      请考虑在格式字符串中使用“%I64d”
+  
+C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(63,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“unsigned __int64”
+      C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(63,9):
+      请考虑在格式字符串中使用“%lld”
+      C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(63,9):
+      请考虑在格式字符串中使用“%Id”
+      C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\task.c(63,9):
+      请考虑在格式字符串中使用“%I64d”
+  
+  数组.vcxproj -> C:\Users\apqroc\Desktop\code\vs2024\鹏哥c语言\数组\x64\Debug\数组.exe
