@@ -38,30 +38,30 @@
 //	return 0;
 //}
 
-////4.2数组名
-////数组名确实能表示首元素的地址，但是有两个特例
-////1.sizeof(arr)表示整个数组的大小
-////2.&arr表示取整个数组的地址
-//int main()
-//{
-//	/*int arr[10] = { 0 };
-//	printf("%p\n", arr);
-//	printf("%p\n", arr+1);
-//	printf("--------------------\n");
-//	printf("%p\n", &arr[0]);
-//	printf("%p\n", &arr[0]+1);
-//	printf("--------------------\n");
-//	printf("%p\n", &arr);
-//	printf("%p\n", &arr + 1);*/
-//
-//
-//	int arr[3][4] = { 0 };
-//	printf("%p\n", arr);
-//	printf("%p\n", arr+1);		//二维数组的数组名表示第一行的地址
-//
-//	printf("%d\n", sizeof(arr) / sizeof(arr[0]));			//求行数
-//	printf("%d\n", sizeof(arr[0]) / sizeof(arr[0][0]));		//求列数
-//
-//	return 0;
-//}
+//4.2数组名
+//数组名确实能表示首元素的地址，但是有两个特例
+//1.sizeof(arr)表示整个数组的大小
+//2.&arr表示取整个数组的地址
+int main()
+{
+	int arr[10] = { 0 };
+	printf("%p\n", arr);
+	printf("%p\n", arr+1);
+	printf("--------------------\n");
+	printf("%p\n", &arr[0]);
+	printf("%p\n", &arr[0]+1);
+	printf("--------------------\n");
+	printf("%p\n", &arr);
+	printf("%p\n", &arr + 1);
+
+
+	//int arr[3][4] = { 0 };
+	//printf("%p\n", arr);
+	//printf("%p\n", arr+1);		//二维数组的数组名表示第一行的地址
+
+	//printf("%d\n", sizeof(arr) / sizeof(arr[0]));			//求行数
+	//printf("%d\n", sizeof(arr[0]) / sizeof(arr[0][0]));		//求列数
+
+	//return 0;
+}
 

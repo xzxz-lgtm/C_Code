@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\",
+  "WorkspaceRootPath": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\07.\u7ED3\u6784\u4F53\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1AEA3524-B5E8-4078-AE46-64DF695DBE42}|7.\u7ED3\u6784\u4F53.vcxproj|C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1AEA3524-B5E8-4078-AE46-64DF695DBE42}|7.\u7ED3\u6784\u4F53.vcxproj|D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\07.\u7ED3\u6784\u4F53\\task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1AEA3524-B5E8-4078-AE46-64DF695DBE42}|7.\u7ED3\u6784\u4F53.vcxproj|solutionrelative:task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -14,15 +14,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "task.c",
-              "DocumentMoniker": "C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\task.c",
+              "DocumentMoniker": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\07.\u7ED3\u6784\u4F53\\task.c",
               "RelativeDocumentMoniker": "task.c",
-              "ToolTip": "C:\\Users\\apqroc\\Desktop\\code\\vs2024\\\u9E4F\u54E5c\u8BED\u8A00\\7.\u7ED3\u6784\u4F53\\task.c",
+              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\07.\u7ED3\u6784\u4F53\\task.c",
               "RelativeToolTip": "task.c",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",

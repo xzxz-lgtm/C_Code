@@ -1,20 +1,20 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-////6.1.1指针类型
-//int main()
-//{
-//	int a = 0x11223344;
-//	char* pc = (char*)&a;
-//	//int* pc = &a;
-//	
-//	*pc = 0;
-//	printf("%x\n", a);
-//	//只修改了一个字节
-//	//指针类型决定了指针在被解引用时访问几个字节
-//
-//	return 0;
-//}
+//6.1.1指针类型
+int main()
+{
+	int a = 0x11223344;
+	char* pc = (char*)&a;
+	//int* pc = &a;
+	
+	*pc = 0;
+	printf("%x\n", a);
+	//只修改了一个字节
+	//指针类型决定了指针在被解引用时访问几个字节
+
+	return 0;
+}
 
 ////6.1.2
 //int main()
@@ -85,24 +85,24 @@
 //	}
 //	return 0;
 //}
-int main()
-{
-	int arr1[4] = { 1,2,3,4 };
-	int arr2[4] = { 2,3,4,5 };
-	int arr3[4] = { 3,4,5,6 };
-
-	int* parr[3] = { arr1,arr2,arr3 };
-	int i = 0;
-	for (i = 0; i < 3; i++)
-	{
-		int j = 0;
-		for (j = 0; j < 4; j++)
-		{
-			printf("%d ", parr[i][j]);
-			//printf("%d ", *(*(parr + i) + j));
-		}
-		printf("\n");
-	}
-
-	return 0;
-}
+//int main()
+//{
+//	int arr1[4] = { 1,2,3,4 };
+//	int arr2[4] = { 2,3,4,5 };
+//	int arr3[4] = { 3,4,5,6 };
+//
+//	int* parr[3] = { arr1,arr2,arr3 };
+//	int i = 0;
+//	for (i = 0; i < 3; i++)
+//	{
+//		int j = 0;
+//		for (j = 0; j < 4; j++)
+//		{
+//			printf("%d ", parr[i][j]);
+//			//printf("%d ", *(*(parr + i) + j));
+//		}
+//		printf("\n");
+//	}
+//
+//	return 0;
+//}

@@ -1,20 +1,20 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 #include <stdio.h>
 
-////2.1
-//#include <string.h>
-//int main()
-//{
-//	/*char arr1[20] = { 0 };
-//	char arr2[] = "hello world";
-//
-//	strcpy(arr1, arr2);
-//	printf("%s\n", arr1);*/
-//
-//	char arr[20] = "hello world";
-//	memset(arr + 6, 'y', 3);
-//	printf("%s\n", arr);
-//}
+//2.1
+#include <string.h>
+int main()
+{
+	/*char arr1[20] = { 0 };
+	char arr2[] = "hello world";
+
+	strcpy(arr1, arr2);
+	printf("%s\n", arr1);*/
+
+	char arr[20] = "hello world";
+	memset(arr + 6, 'y', 3);
+	printf("%s\n", arr);
+}
 
 ////2.2
 //int get_max(int x, int y)
@@ -548,25 +548,25 @@
 //	return 0;
 //}
 
-//作业第八题:递归求n^k
-double pow(int n, int k)
-{
-	if (k == 0)
-		return 1;
-	else if (k > 0)
-		return n * pow(n, k - 1);
-	else
-		return 1.0 / pow(n, -k);
-}
-
-int main()
-{
-	int n = 0;
-	int k = 0;
-	scanf("%d%d", &n, &k);
-	double ret = pow(n, k);
-	printf("%lf\n", ret);
-
-	return 0;
-}
+////作业第八题:递归求n^k
+//double pow(int n, int k)
+//{
+//	if (k == 0)
+//		return 1;
+//	else if (k > 0)
+//		return n * pow(n, k - 1);
+//	else
+//		return 1.0 / pow(n, -k);
+//}
+//
+//int main()
+//{
+//	int n = 0;
+//	int k = 0;
+//	scanf("%d%d", &n, &k);
+//	double ret = pow(n, k);
+//	printf("%lf\n", ret);
+//
+//	return 0;
+//}
 

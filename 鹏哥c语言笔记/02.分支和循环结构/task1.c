@@ -244,89 +244,89 @@
 //	return 0;
 //}
 
-////项目：猜数字游戏
-////电脑产生一个随机数（1~100)
-////提示猜大猜小
-//#include <stdlib.h>
-//#include <time.h>
-//void menu()
-//{
-//	printf("*******************************\n");
-//	printf("**********  1.play   **********\n");
-//	printf("**********  0.exit   **********\n");
-//	printf("*******************************\n");
-//}
-//
-//void game()
-//{
-//	int guess = 0;
-//	//1.生成随机数1~100
-//	int ret = rand()%100+1;		//0~RAND_MAX(32767)
-//	//printf("%d\n", ret);
-//	//2.猜数字
-//	while (1)
-//	{
-//		printf("请猜数字:>");
-//		scanf("%d", &guess);
-//		if (guess < ret)
-//		{
-//			printf("猜小了");
-//		}
-//		else if (guess > ret)
-//		{
-//			printf("猜大了");
-//		}
-//		else
-//		{
-//			printf("恭喜你猜对了");
-//			break;
-//		}
-//	}
-//}
-//
-//int main()
-//{
-//	int input = 0;
-//	srand((unsigned int)time(NULL));
-//
-//	do
-//	{
-//		menu();
-//		printf(" 请选择:>");
-//		scanf("%d", &input);
-//		switch (input)
-//		{
-//		case 1:
-//			game();
-//			break;
-//		case 0:
-//			printf("退出游戏\n");
-//			break;
-//		default:
-//			printf("选择错误，重新选择！\n");
-//			break;
-//		}
-//	} while(input);
-//}
-
-//4.关机程序
+//项目：猜数字游戏
+//电脑产生一个随机数（1~100)
+//提示猜大猜小
 #include <stdlib.h>
-#include <string.h>
+#include <time.h>
+void menu()
+{
+	printf("*******************************\n");
+	printf("**********  1.play   **********\n");
+	printf("**********  0.exit   **********\n");
+	printf("*******************************\n");
+}
+
+void game()
+{
+	int guess = 0;
+	//1.生成随机数1~100
+	int ret = rand()%100+1;		//0~RAND_MAX(32767)
+	//printf("%d\n", ret);
+	//2.猜数字
+	while (1)
+	{
+		printf("请猜数字:>");
+		scanf("%d", &guess);
+		if (guess < ret)
+		{
+			printf("猜小了");
+		}
+		else if (guess > ret)
+		{
+			printf("猜大了");
+		}
+		else
+		{
+			printf("恭喜你猜对了");
+			break;
+		}
+	}
+}
 
 int main()
 {
-	char input[20] = { 0 };
-	system("shutdown -s -t 60");
-again:
-	printf("请注意，你的电脑在60s内关机，输入我是猪取消关机\n");
-	scanf("%s", input);
-	if (strcmp(input, "我是猪") == 0)
+	int input = 0;
+	srand((unsigned int)time(NULL));
+
+	do
 	{
-		system("shutdown -a");
-	}
-	else
-	{
-		goto again;
-	}
-	return 0;
+		menu();
+		printf(" 请选择:>");
+		scanf("%d", &input);
+		switch (input)
+		{
+		case 1:
+			game();
+			break;
+		case 0:
+			printf("退出游戏\n");
+			break;
+		default:
+			printf("选择错误，重新选择！\n");
+			break;
+		}
+	} while(input);
 }
+
+////4.关机程序
+//#include <stdlib.h>
+//#include <string.h>
+//
+//int main()
+//{
+//	char input[20] = { 0 };
+//	system("shutdown -s -t 60");
+//again:
+//	printf("请注意，你的电脑在60s内关机，输入我是猪取消关机\n");
+//	scanf("%s", input);
+//	if (strcmp(input, "我是猪") == 0)
+//	{
+//		system("shutdown -a");
+//	}
+//	else
+//	{
+//		goto again;
+//	}
+//	return 0;
+//}
