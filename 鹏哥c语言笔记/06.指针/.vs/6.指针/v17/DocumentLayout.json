@@ -14,24 +14,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "task.c",
               "DocumentMoniker": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\06.\u6307\u9488\\task.c",
               "RelativeDocumentMoniker": "task.c",
-              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\06.\u6307\u9488\\task.c*",
-              "RelativeToolTip": "task.c*",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAGMAAAAFAAAAAAAAAA==",
+              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\06.\u6307\u9488\\task.c",
+              "RelativeToolTip": "task.c",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHQAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-14T14:21:03.765Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }
