@@ -107,20 +107,97 @@
 //	return 0;
 //}
 
-//一些题目
-//小端序：LSB在最低位 arr[0]:0x00000001 存储：01 00 00 00
+////一些题目
+////小端序：LSB在最低位 arr[0]:0x00000001 存储：01 00 00 00
+//int main()
+//{
+//	int arr[] = { 1,2,3,4,5 };
+//	short* p = (short*)arr; //解引用和自增时访问两个字节
+//	int i = 0;
+//	for (i = 0; i < 4; i++)
+//	{
+//		*(p + i) = 0; //连续四次把两个字节赋值为0
+//	}
+//	for (i = 0; i < 5; i++)
+//	{
+//		printf("%d ", arr[i]); //0，0，3，4，5
+//	}
+//
+//	return 0;
+//}
+
+
+////字符串逆序并打印 0<=strlen(arr)<=10000
+//#include <string.h>
+//int main()
+//{
+//	char arr[10001] = { 0 };
+//	gets(arr);
+//
+//	int left = 0;
+//	int right = strlen(arr) - 1;
+//
+//	while (left < right)
+//	{
+//		char tmp = arr[left];
+//		arr[left] = arr[right];
+//		arr[right] = tmp;
+//
+//		left++;
+//		right--;
+//	}
+//
+//	printf("%s\n", arr);
+//
+//	return 0;
+//}
+
+
+//判断0-100000的“水仙花数” 每一位的n次方之和等于原数
+#include <math.h>
+int count_digit(int i)
+{
+	int cnt = 1; //至少是一位数
+	while (i / 10)
+	{
+		cnt++;
+		i /= 10;
+	}
+
+	return cnt;
+}
+
+int is_shuixian(int i, int n)
+{
+	int sum = 0;
+	int tmp = i;
+	while (tmp)
+	{
+		sum += pow(tmp % 10, n);
+		tmp /= 10;
+	}
+
+	/*if (sum == i)
+		return 1;
+	else
+		return 0;*/
+	return sum == i;
+}
+
 int main()
 {
-	int arr[] = { 1,2,3,4,5 };
-	short* p = (short*)arr; //解引用和自增时访问两个字节
+	 
 	int i = 0;
-	for (i = 0; i < 4; i++)
+	for (i = 0; i < 100000; i++)
 	{
-		*(p + i) = 0; //连续四次把两个字节赋值为0
-	}
-	for (i = 0; i < 5; i++)
-	{
-		printf("%d ", arr[i]); //0，0，3，4，5
+		//1.判断位数 
+		int n = count_digit(i);
+		//2.判断水仙花数
+		int flag = is_shuixian(i, n);
+		if (flag)
+		{
+			printf("%d ", i);
+		}
 	}
 
 	return 0;

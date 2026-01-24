@@ -5,6 +5,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{0BA871CD-A8DD-41F7-A6D8-CA79B4122A51}|\u6307\u9488.vcxproj|D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\06.\u6307\u9488\\task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0BA871CD-A8DD-41F7-A6D8-CA79B4122A51}|\u6307\u9488.vcxproj|solutionrelative:task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BA871CD-A8DD-41F7-A6D8-CA79B4122A51}|\u6307\u9488.vcxproj|C:\\PROGRAM FILES (X86)\\WINDOWS KITS\\10\\INCLUDE\\10.0.22621.0\\UCRT\\MATH.H||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -17,8 +20,15 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "math.h",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\math.h",
+              "ToolTip": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.22621.0\\ucrt\\math.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-01-22T04:07:01.057Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -28,7 +38,7 @@
               "RelativeDocumentMoniker": "task.c",
               "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\06.\u6307\u9488\\task.c",
               "RelativeToolTip": "task.c",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAAAHQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAjwK0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-01-14T14:21:03.765Z",
               "EditorCaption": ""
