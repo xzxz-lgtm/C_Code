@@ -1,0 +1,3 @@
+﻿  task.c
+D:\C_code\C_Code\鹏哥c语言笔记\进阶01.数据存储\task.c(63,6): warning C4013: “strlen”未定义；假设外部返回 int
+  进阶01.数据存储.vcxproj -> D:\C_code\C_Code\鹏哥c语言笔记\进阶01.数据存储\Debug\进阶01.数据存储.exe
