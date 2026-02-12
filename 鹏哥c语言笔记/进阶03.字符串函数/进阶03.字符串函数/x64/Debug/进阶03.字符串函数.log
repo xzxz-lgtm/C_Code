@@ -1,0 +1,9 @@
+﻿  task.c
+D:\C_code\C_Code\鹏哥c语言笔记\进阶03.字符串函数\task.c(13,9): warning C4477: “printf”: 格式字符串“%zu”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“int”
+      D:\C_code\C_Code\鹏哥c语言笔记\进阶03.字符串函数\task.c(13,9):
+      请考虑在格式字符串中使用“%u”
+      D:\C_code\C_Code\鹏哥c语言笔记\进阶03.字符串函数\task.c(13,9):
+      请考虑在格式字符串中使用“%I32u”
+  
+D:\C_code\C_Code\鹏哥c语言笔记\进阶03.字符串函数\task.c(11,12): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  进阶03.字符串函数.vcxproj -> D:\C_code\C_Code\鹏哥c语言笔记\进阶03.字符串函数\x64\Debug\进阶03.字符串函数.exe
