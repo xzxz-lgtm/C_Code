@@ -134,8 +134,8 @@
 ////5.位段
 //struct S
 //{
-//	char a : 3;	//1Byte
-//	char b : 4;
+//	char a : 3;	//
+//	char b : 4;	//1Byte
 //	char c : 5;	//1Byte
 //	char d : 4;	//1Byte
 //};
@@ -156,4 +156,93 @@
 //	return 0;
 //}
 
-//6.枚举
+////6.枚举
+////#define常量在预处理时会被替换；调试的是.exe
+//enum Day
+//{
+//	Mon	= 1,	//递增
+//	Tues,
+//	Wed,
+//	Thur,
+//	Fri,
+//	Sat,
+//	Sun
+//};
+//
+//int main()
+//{
+//	enum Day d = Fri;
+//	printf("%d\n", d);
+//
+//}
+
+////7.联合/共用体
+////成员公用同一块空间
+//union Un
+//{
+//	int a;
+//	char c;
+//};
+//
+//struct St
+//{
+//	int a;
+//	char c;
+//};
+//
+//int main()
+//{
+//	union Un u;
+//	printf("%zu\n", sizeof(u));	//4
+//	//联合的大小至少是最大成员的大小
+//
+//	printf("%p\n", &u);
+//	printf("%p\n", &(u.a));
+//	printf("%p\n", &(u.c));
+//
+//	return 0;
+//}
+
+////8.判断大小端
+//int check_sys()
+//{
+//	union
+//	{
+//		char c;
+//		int i;
+//	}u;
+//
+//	u.i = 1;	//小端01 00 00 00
+//	return u.c;
+//}
+//
+//int main()
+//{
+//	int ret = check_sys();
+//	if (ret == 1)
+//	{
+//		printf("大端\n");
+//	}
+//	else
+//	{
+//		printf("小端\n");
+//	}
+//
+//	return 0;
+//}
+
+//9.联合体内存对齐
+//联合的大小至少是最大成员的大小
+//当最大成员大小不是最大对齐数的整数倍时，就对齐
+int main()
+{
+	union Un
+	{
+		char arr[5];
+		int i;
+	}u;
+	
+	printf("%zu\n", sizeof(u));	//8
+
+	return 0;
+}

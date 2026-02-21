@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\\u8FDB\u963607.\u9884\u5904\u7406\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8C42D-C0DC-4AE7-A8AD-8F72ABE73CD1}|\u8FDB\u963607.\u9884\u5904\u7406.vcxproj|D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\\u8FDB\u963607.\u9884\u5904\u7406\\homework.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDE8C42D-C0DC-4AE7-A8AD-8F72ABE73CD1}|\u8FDB\u963607.\u9884\u5904\u7406.vcxproj|solutionrelative:homework.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDE8C42D-C0DC-4AE7-A8AD-8F72ABE73CD1}|\u8FDB\u963607.\u9884\u5904\u7406.vcxproj|D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\\u8FDB\u963607.\u9884\u5904\u7406\\task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CDE8C42D-C0DC-4AE7-A8AD-8F72ABE73CD1}|\u8FDB\u963607.\u9884\u5904\u7406.vcxproj|solutionrelative:task.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "homework.c",
+              "DocumentMoniker": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\\u8FDB\u963607.\u9884\u5904\u7406\\homework.c",
+              "RelativeDocumentMoniker": "homework.c",
+              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\\u8FDB\u963607.\u9884\u5904\u7406\\homework.c",
+              "RelativeToolTip": "homework.c",
+              "ViewState": "AgIAAKoAAAAAAAAAAAAAAKoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-20T08:59:18.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "task.c",
+              "DocumentMoniker": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\\u8FDB\u963607.\u9884\u5904\u7406\\task.c",
+              "RelativeDocumentMoniker": "task.c",
+              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\\u8FDB\u963607.\u9884\u5904\u7406\\task.c",
+              "RelativeToolTip": "task.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-02-16T01:25:47.295Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

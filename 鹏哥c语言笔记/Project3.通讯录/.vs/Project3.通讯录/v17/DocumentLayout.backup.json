@@ -30,12 +30,12 @@
               "Title": "test.c",
               "DocumentMoniker": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\Project3.\u901A\u8BAF\u5F55\\test.c",
               "RelativeDocumentMoniker": "test.c",
-              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\Project3.\u901A\u8BAF\u5F55\\test.c*",
-              "RelativeToolTip": "test.c*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAOAAAAAAAAAA==",
+              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\Project3.\u901A\u8BAF\u5F55\\test.c",
+              "RelativeToolTip": "test.c",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADkAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-12T03:32:44.838Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -47,12 +47,11 @@
               "Title": "contact.h",
               "DocumentMoniker": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\Project3.\u901A\u8BAF\u5F55\\contact.h",
               "RelativeDocumentMoniker": "contact.h",
-              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\Project3.\u901A\u8BAF\u5F55\\contact.h*",
-              "RelativeToolTip": "contact.h*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAATAAAAAAAAAA==",
+              "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\Project3.\u901A\u8BAF\u5F55\\contact.h",
+              "RelativeToolTip": "contact.h",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-02-12T03:33:28.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-12T03:33:28.919Z"
             },
             {
               "$type": "Document",
@@ -62,7 +61,7 @@
               "RelativeDocumentMoniker": "contact.c",
               "ToolTip": "D:\\C_code\\C_Code\\\u9E4F\u54E5c\u8BED\u8A00\u7B14\u8BB0\\Project3.\u901A\u8BAF\u5F55\\contact.c*",
               "RelativeToolTip": "contact.c*",
-              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKoAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2026-02-12T03:32:53.574Z",
               "EditorCaption": ""

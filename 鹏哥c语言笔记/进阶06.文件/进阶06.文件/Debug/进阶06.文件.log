@@ -1,0 +1,6 @@
+﻿  task.c
+D:\C_code\C_Code\鹏哥c语言笔记\进阶06.文件\task.c(199,5): warning C4273: “fseek”: dll 链接不一致
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\ucrt\stdio.h(270,26):
+      参见“fseek”的前一个定义
+  
+  进阶06.文件.vcxproj -> D:\C_code\C_Code\鹏哥c语言笔记\进阶06.文件\Debug\进阶06.文件.exe
